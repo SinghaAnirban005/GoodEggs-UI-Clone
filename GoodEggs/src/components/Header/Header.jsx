@@ -4,7 +4,7 @@ function Header(){
 
     const items = [
         "Fresh Picks", "Meal Solutions",
-        "PRoduce", "Dairy and Eggs",
+        "Produce", "Dairy and Eggs",
         "Meat and Fish", "Bakery",
         "Deli", "Snacks",
         "Drinks", "Alcohol",
@@ -15,20 +15,20 @@ function Header(){
     ]
 
     return (
-        <div className="flex-col h-[10em] w-[100%] ">
+        <div className="flex-col h-[10em] w-[100vw] ">
             <nav className="flex justify-between px-[1vw] h-[5em] items-center ">
                 <img src="https://goodeggs-assets2.imgix.net/img/svg/icons/ge-header-logo-white.ae2b509eb6e12611e902.svg?auto=format" alt="Logo" />
                 <div className="flex justify-between w-[28em] cursor-pointer">
-                    <div className="hover:text-teal-600 hover:underline text-sm">
+                    <div className="hover:text-teal-600 hover:underline text-sm font-bold">
                         Help Center
                     </div>
-                    <div className="hover:text-teal-600  hover:underline text-sm">
+                    <div className="hover:text-teal-600  hover:underline text-sm font-bold">
                         Invite Friends
                     </div> 
-                    <div className="hover:text-teal-600 hover:underline text-sm">
+                    <div className="hover:text-teal-600 hover:underline text-sm font-bold">
                         Buy a Gift Card
                     </div>
-                    <div className="hover:text-teal-600 hover:underline text-sm">
+                    <div className="hover:text-teal-600 hover:underline text-sm font-bold">
                         Join Membership
                     </div>
                 </div>
@@ -37,26 +37,27 @@ function Header(){
                     <div className="hover:text-bg-600 hover:underline text-sm"> 
                         <p>Shopping for <span className="font-bold ">Tomorrow</span> in <span className="font-bold">90039</span></p>
                     </div>
-                    <div>
-                        <p className="hover:text-teal-600 hover:underline text-sm">Favorites</p>
+                    <div className="flex items-center">
+                        <img src="https://png.pngtree.com/png-vector/20190909/ourmid/pngtree-red-heart-icon-isolated-png-image_1726594.jpg" alt="fav-icon" className="h-[1.2em] w-[1.2em] rounded-md" />
+                        <p className="hover:text-teal-600 hover:underline text-sm font-bold">Favorites</p>
                     </div>
                     <div>
-                        <p className="hover:text-teal-600 hover:underline text-sm">Sign In</p>
+                        <p className="hover:text-teal-600 hover:underline text-sm font-bold">Sign In</p>
                     </div>
                 </div>
             </nav>
 
-            <nav className="flex justify-between h-[5em] items-center px-[1em] border-b-2 border-slate-300">
+            <nav className="flex justify-between h-[5em] items-center px-[1vw] border-b-2 border-slate-300">
                 {
                     items.map((header) => (
                         <div className="cursor-pointer" key={header}>
-                            <p className="text-sm hover:underline hover:text-teal-600">{header}</p>
+                            <p className="text-sm font-bold hover:underline hover:text-teal-600">{header}</p>
                         </div>
                     ))
                   
                 }
                 <img src="https://www.pikpng.com/pngl/m/109-1092659_search-icon-small-png-clipart.png" className="rounded-md h-[1.5em] w-[1.5em]" alt="Seacrh icon" />
-                <div className="bg-green-600 rounded-3xl p-2">
+                <div className="bg-green-600 rounded-3xl p-2 hover:opacity-50 cursor-pointer">
                     <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" className="rounded-md h-[1.8em] w-[1.8em]" alt="bag" />
                 </div>
             </nav>
