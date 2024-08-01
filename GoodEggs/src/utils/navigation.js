@@ -132,3 +132,97 @@ export const popular = [
         label: "1 lb"
     }
 ]
+
+
+export const partners = [
+    {
+        img: "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/10/21193955/Pizza-Hut.png"
+    },
+    {
+        img: "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/10/21193849/Baskin-Robbins.png"
+    },
+    {
+        img: "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/10/21193859/DQ.png"
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWK7Fy3iGvJyRlR2MtQdEe7YhXzf2RKeM_OQ&s"
+    },
+    {
+        img: "https://partnerslate.com/wp-content/uploads/2023/10/lays-logo.png"
+    },
+    {
+        img: "https://deerdesigner.com/wp-content/uploads/image-02-nestle.png"
+    },
+    {
+        img: "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/10/21194004/KFC.png"
+    },
+    {
+        img: "https://reallygooddesigns.com/wp-content/uploads/2022/12/Famous-Food-Brands-Doritos.jpg"
+    },
+    {
+        img: "https://reallygooddesigns.com/wp-content/uploads/2022/12/Famous-Food-Brands-Kinder.jpg"
+    },
+    {
+        img: "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/10/21193907/Wendys.png"
+    }
+]
+export const Shop = [
+    {
+        data: "Shop Featured Items",
+
+    },
+    {
+        data: "Meal Solutions"
+    },
+    {
+        data: "Gift Cards"
+    },
+    {
+        data: "Refer a friend"
+    },
+    {
+        data: "Join Membership"
+    }
+]
+
+export const AboutGoodEggs = [
+    {
+        data: "About Us"
+    },
+    {
+        data: "Blog"
+    },
+    {
+        data: "Food Standards"
+    },
+    {
+        data: "How it works"
+    },
+    {
+        data: "Careers"
+    },
+    {
+        data: "Sell your goods"
+    }
+]
+
+export const HolidayGuides = [
+    {
+        data: "Thanksgiving"
+    },
+    {
+        data: "Winter Holidays"
+    }
+]
+
+export const NeedHelp = [
+    {
+        data: "Privacy Policy"
+    },
+    {
+        data: "Contact us"
+    },
+    {
+        data: "Help Center"
+    }
+]
