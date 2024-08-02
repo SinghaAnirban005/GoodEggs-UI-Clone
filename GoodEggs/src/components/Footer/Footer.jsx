@@ -6,10 +6,10 @@ import {NeedHelp} from "../../utils/navigation.js"
 
 function Footer() {
     return (
-        <footer className="flex flex-col w-[100vw] bg-customGreen h-[33vw] mt-[5vh]" >
-            <div className="flex flex-wrap justify-between border-b-2 pt-[8vw] px-[4vw] w-[100vw] h-[28vw]">
+        <footer className="flex flex-col w-[100vw] bg-customGreen h-[120vw] md:h-[33vw] mt-[5vh]" >
+            <div className="flex-col bg-slate-600 md:flex justify-between border-b-2 pt-[8vw] px-[4vw] w-[100vw] h-[100vw] md:h-[28vw]">
                 <div>
-                <img src="https://goodeggs-assets2.imgix.net/img/svg/icons/logo_green.a85ff2ea3df8161ab00a.svg?auto=format" alt="good-egg-icon" className="h-[10vw] w-[12vw]" />
+                <img src="https://goodeggs-assets2.imgix.net/img/svg/icons/logo_green.a85ff2ea3df8161ab00a.svg?auto=format" alt="good-egg-icon" className="h-[20vw] w-[20vw] md:h-[10vw] md:w-[12vw]" />
                 </div>
                 
                 <div className="flex justify-between mr-[12vw] w-[45vw]">
@@ -17,7 +17,7 @@ function Footer() {
                     <h1 className="font-bold text-white">Shop</h1>
                     {
                         Shop.map((item) => {
-                         return   <li className="text-white text-sm pt-[0.6vw]">
+                         return   <li className="text-white text-sm pt-[0.6vw] hover:underline cursor-pointer">
                                 {item.data}
                             </li>
                         })
@@ -28,7 +28,7 @@ function Footer() {
                     <h1 className="font-bold text-white">About Good Eggs</h1>
                     {
                         AboutGoodEggs.map((item) => {
-                         return   <li className="text-white text-sm pt-[0.6vw]">
+                         return   <li className="text-white text-sm pt-[0.6vw] hover:underline cursor-pointer">
                                 {item.data}
                             </li>
                         })
@@ -39,7 +39,7 @@ function Footer() {
                     <h1 className="font-bold text-white">Holiday Guides</h1>
                     {
                         HolidayGuides.map((item) => {
-                         return   <li className="text-white text-sm pt-[0.6vw]">
+                         return   <li className="text-white text-sm pt-[0.6vw] hover:underline cursor-pointer">
                                 {item.data}
                             </li>
                         })
@@ -50,7 +50,7 @@ function Footer() {
                     <h1 className="font-bold text-white">Need Help?</h1>
                     {
                         NeedHelp.map((item) => {
-                         return   <li className="text-white text-sm pt-[0.6vw]">
+                         return   <li className="text-white text-sm pt-[0.6vw] hover:underline cursor-pointer">
                                 {item.data}
                             </li>
                         })
@@ -70,7 +70,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="flex mx-[6vw]  w-[100vw] items-center h-[5vw]">
+            <div className="flex items-center mx-[6vw] w-[100vw] h-[5vw]">
                     <h1 className="text-white mr-[2vw] hover:underline">@2024 Good Eggs, Inc</h1>
                     <h1 className="text-white hover:underline">Terms and Privacy</h1>
             </div>
