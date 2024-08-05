@@ -3,7 +3,7 @@ import { categories } from "../../utils/navigation.js";
 
 function FeaturedCategories() {
     return (
-        <div className="flex flex-col w-[100vw] h-[52vw] mt-[70vw] md:mt-[8vw] ">
+        <div className="flex flex-col w-[100vw] h-[52vw] mt-[120vw] md:mt-[8vw] ">
             <div className="flex px-[8vw] md:px-[2vw] text-[2vw]">
                 <h1>Featured Categories</h1>
             </div>

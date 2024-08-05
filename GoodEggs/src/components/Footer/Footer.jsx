@@ -6,8 +6,8 @@ import {NeedHelp} from "../../utils/navigation.js"
 
 function Footer() {
     return (
-        <footer className="flex flex-col w-[100vw] bg-customGreen h-[150vw] md:h-[33vw] mt-[5vh]" >
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-start md:justify-between border-b-2 pt-[8vw] px-[4vw] w-[100vw] h-[140vw] md:h-[28vw]">
+        <footer className="flex flex-col w-[100vw] bg-customGreen h-[180vw] justify-between md:h-[33vw] mt-[10vh]" >
+            <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between border-b-2 p-[8vw] px-[4vw] w-[100vw] h-[175vw] md:h-[28vw]">
                 <div className="md:h-[10vw] justify-center md:justify-start md:w-[12vw] h-[20vw] w-[100vw]">
                 <img src="https://goodeggs-assets2.imgix.net/img/svg/icons/logo_green.a85ff2ea3df8161ab00a.svg?auto=format" alt="good-egg-icon" className="h-[20vw] w-[100vw] md:h-[10vw] md:w-[12vw]" />
                 </div>

@@ -16,9 +16,9 @@ function Header(){
 
     return (
         <div className="flex flex-col h-[10em] w-[100vw] items-between">
-            <nav className="flex flex-wrap justify-center lg:flex lg:justify-between px-[1vw] h-[10vm] items-center ">
+            <nav className="flex flex-wrap justify-center md:flex md:justify-between px-[1vw] h-[10vm] items-center ">
                 <img src="https://goodeggs-assets2.imgix.net/img/svg/icons/ge-header-logo-white.ae2b509eb6e12611e902.svg?auto=format" alt="Logo" className="mr-[1vw] lg:mr-[0vw]" />
-                <div className="flex justify-between w-[28em] cursor-pointer mr-[6vw]">
+                <div className="flex justify-between ml-[4vw] md:ml-[0vw] w-[28em] cursor-pointer mr-[6vw]">
                     <div className="hover:text-teal-600 hover:underline text-sm font-bold">
                         Help Center
                     </div>

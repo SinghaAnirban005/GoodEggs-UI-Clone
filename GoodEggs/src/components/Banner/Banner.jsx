@@ -14,7 +14,7 @@ function Banner() {
     };
 
     return (
-        <div className="flex flex-col items-center w-[100vw] h-[50vw]">
+        <div className="flex flex-col items-center w-[100vw] mt-[4vw] h-[50vw]">
             <div className="flex justify-between items-center px-[2vmax] py-[2vmax] h-[20vmax] w-[98vw] rounded-xl bg-customGreen mt-[2vw]">
                 <div className="flex items-center ">
                     <img
@@ -33,8 +33,8 @@ function Banner() {
                 />
             </div>
 
-            <div className=" slider-container mt-[2vw] w-[95vw] h-[95vw] md:h-[40vw]">
-                <Slider {...settings} className="flex w-[95vw] h-[95vw] md:h-[40vw]">
+            <div className=" slider-container mt-[2vw] w-[95vw] h-[120vw] md:h-[40vw]">
+                <Slider {...settings} className="flex w-[95vw] h-[120vw] md:h-[40vw]">
                     {nav.map((item, index) => (
                         <div key={index} className="flex justify-between w-[95vw] ">
                             <div className="flex flex-wrap lg:flex justify-between w-[95vw] ">
@@ -46,7 +46,7 @@ function Banner() {
                                 />
                                </div>
 
-                               <div className="flex flex-col items-center justify-center w-[95vw] md:w-[35vw] py-[4vw] mt-[4vw] md:mt-[0vw] h-[30vw] md:h-[40vw] px-[1vw]">
+                               <div className="flex flex-col items-center justify-center w-[95vw] md:w-[35vw] py-[4vw] mt-[8vw] md:mt-[0vw] h-[40vw] md:h-[40vw] px-[1vw]">
                                 <h1 className="flex text-center text-2xl font-bold">{item.title}</h1>
                                 <h2 className="text-center mt-[1vw] text-sm">{item.description}</h2>
                                 <button className="text-blue-500 w-[30vmin] border-blue-500 border-2 rounded-2xl text-sm px-[0.2vw] py-[0.4vw] mt-[3vh] md:mt-[1vw] hover:text-white hover:bg-blue-500">
