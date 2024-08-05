@@ -5,7 +5,7 @@ function Popular() {
     return (
         <div className="flex flex-col justify-center w-[100vw] h-[180vw] md:h-[40vw] mt-[160vw] md:mt-[2vw] ">
             <div className="flex text-[2vw] px-[8vw] md:px-[2vw]">
-                <h1>Our team of Master Producers & Partners</h1>
+                <h1>Our team of Master Producers & Partner</h1>
             </div>
 
           <div className="flex flex-wrap md:flex px-[10vw] md:px-[1vw] justify-between items-center w-[100vw]">
